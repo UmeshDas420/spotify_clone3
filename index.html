@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Spotify-Clone</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>My favourite Songs</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp"><img class="far songItemPlay fa-play-circle" class="playbutton" id="0" src="./playbutton.png" alt=""></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp"> <img class="far songItemPlay fa-play-circle" class="playbutton" id="1" src="./playbutton.png" alt=""> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp"> <img class="far songItemPlay fa-play-circle" class="playbutton" id="2" src="./playbutton.png" alt=""> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp"><img class="far songItemPlay fa-play-circle" class="playbutton" id="3" src="./playbutton.png" alt=""> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp"><img class="far songItemPlay fa-play-circle" class="playbutton" id="4" src="./playbutton.png" alt=""> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp"> <img class="far songItemPlay fa-play-circle" class="playbutton" id="5" src="./playbutton.png" alt=""> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp"><img class="far songItemPlay fa-play-circle" class="playbutton" id="6" src="./playbutton.png" alt=""> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp"><img class="far songItemPlay fa-play-circle" class="playbutton" id="7" src="./playbutton.png" alt=""> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp"><img class="far songItemPlay fa-play-circle" class="playbutton" id="8" src="./playbutton.png" alt=""></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp"><img class="far songItemPlay fa-play-circle" class="playbutton" id="9" src="./playbutton.png" alt=""> </span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <img width=50px class="fas fa-3x fa-step-backward" id="previous" src="./previous.png">
+            <img width="70px" class="far fa-3x fa-play-circle" id="masterPlay" src="./masterplay.png">
+            <img width="50px" class="fas fa-3x fa-step-forward" id="next" src="./next.png">
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Funk Do Bounce</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play/Pause Song</title>
+</head>
+<body>
+
+<!-- Audio element -->
+<audio id="song" src="./songs/3.mp3"></audio>
+
+<!-- Image button for play/pause -->
+<img id="playPauseBtn" src="playbutton.png" alt="Play" width="100" style="cursor: pointer;">
+
+<script>
+    // JavaScript code
+    const song = document.getElementById("song");
+    const playPauseBtn = document.getElementById("playPauseBtn");
+
+    // Toggle play/pause on image click
+    playPauseBtn.addEventListener("click", () => {
+        if (song.paused) {
+            song.play();
+            playPauseBtn.src = "pause2.jpg"; // Change to pause icon
+        } else {
+            song.pause();
+            playPauseBtn.src = "playbutton.png"; // Change to play icon
+        }
+    });
+</script>
+
+</body>
+</html>
